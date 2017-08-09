@@ -9,17 +9,35 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var txFrom:UITextField!
+    @IBOutlet var txTo:UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func callNow (){
+        
+    }
+    
+    @IBAction func create(){
+        openUrl(urlString: "https://api2.totalvoice.com.br/painel/signup.php")
+    }
+    
+    func openUrl(urlString:String!) {
+        let url = URL(string: urlString)!
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        } else {
+            UIApplication.shared.openURL(url)
+        }
+    }
+    
+   
 }
 
