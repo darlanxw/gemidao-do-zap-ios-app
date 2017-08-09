@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8656F5611F3B3FD900ED5656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656F5601F3B3FD900ED5656 /* AppDelegate.swift */; };
+		8656F5631F3B3FD900ED5656 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656F5621F3B3FD900ED5656 /* ViewController.swift */; };
+		8656F5661F3B3FD900ED5656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8656F5641F3B3FD900ED5656 /* Main.storyboard */; };
+		8656F5681F3B3FD900ED5656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8656F5671F3B3FD900ED5656 /* Assets.xcassets */; };
+		8656F56B1F3B3FD900ED5656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8656F5691F3B3FD900ED5656 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8656F55D1F3B3FD800ED5656 /* GemidaoDoZapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemidaoDoZapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8656F5601F3B3FD900ED5656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8656F5621F3B3FD900ED5656 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8656F5651F3B3FD900ED5656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8656F5671F3B3FD900ED5656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8656F56A1F3B3FD900ED5656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8656F56C1F3B3FD900ED5656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8656F55A1F3B3FD800ED5656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8656F5541F3B3FD700ED5656 = {
+			isa = PBXGroup;
+			children = (
+				8656F55F1F3B3FD800ED5656 /* GemidaoDoZapApp */,
+				8656F55E1F3B3FD800ED5656 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8656F55E1F3B3FD800ED5656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8656F55D1F3B3FD800ED5656 /* GemidaoDoZapApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8656F55F1F3B3FD800ED5656 /* GemidaoDoZapApp */ = {
+			isa = PBXGroup;
+			children = (
+				8656F5601F3B3FD900ED5656 /* AppDelegate.swift */,
+				8656F5621F3B3FD900ED5656 /* ViewController.swift */,
+				8656F5641F3B3FD900ED5656 /* Main.storyboard */,
+				8656F5671F3B3FD900ED5656 /* Assets.xcassets */,
+				8656F5691F3B3FD900ED5656 /* LaunchScreen.storyboard */,
+				8656F56C1F3B3FD900ED5656 /* Info.plist */,
+			);
+			path = GemidaoDoZapApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8656F55C1F3B3FD800ED5656 /* GemidaoDoZapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8656F56F1F3B3FD900ED5656 /* Build configuration list for PBXNativeTarget "GemidaoDoZapApp" */;
+			buildPhases = (
+				8656F5591F3B3FD800ED5656 /* Sources */,
+				8656F55A1F3B3FD800ED5656 /* Frameworks */,
+				8656F55B1F3B3FD800ED5656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GemidaoDoZapApp;
+			productName = GemidaoDoZapApp;
+			productReference = 8656F55D1F3B3FD800ED5656 /* GemidaoDoZapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8656F5551F3B3FD800ED5656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = darlandev;
+				TargetAttributes = {
+					8656F55C1F3B3FD800ED5656 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DDE9FAS672;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8656F5581F3B3FD800ED5656 /* Build configuration list for PBXProject "GemidaoDoZapApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8656F5541F3B3FD700ED5656;
+			productRefGroup = 8656F55E1F3B3FD800ED5656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8656F55C1F3B3FD800ED5656 /* GemidaoDoZapApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8656F55B1F3B3FD800ED5656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8656F56B1F3B3FD900ED5656 /* LaunchScreen.storyboard in Resources */,
+				8656F5681F3B3FD900ED5656 /* Assets.xcassets in Resources */,
+				8656F5661F3B3FD900ED5656 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8656F5591F3B3FD800ED5656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8656F5631F3B3FD900ED5656 /* ViewController.swift in Sources */,
+				8656F5611F3B3FD900ED5656 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8656F5641F3B3FD900ED5656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8656F5651F3B3FD900ED5656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8656F5691F3B3FD900ED5656 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8656F56A1F3B3FD900ED5656 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8656F56D1F3B3FD900ED5656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8656F56E1F3B3FD900ED5656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8656F5701F3B3FD900ED5656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DDE9FAS672;
+				INFOPLIST_FILE = GemidaoDoZapApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.darlandev.GemidaoDoZapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8656F5711F3B3FD900ED5656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DDE9FAS672;
+				INFOPLIST_FILE = GemidaoDoZapApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.darlandev.GemidaoDoZapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8656F5581F3B3FD800ED5656 /* Build configuration list for PBXProject "GemidaoDoZapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8656F56D1F3B3FD900ED5656 /* Debug */,
+				8656F56E1F3B3FD900ED5656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8656F56F1F3B3FD900ED5656 /* Build configuration list for PBXNativeTarget "GemidaoDoZapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8656F5701F3B3FD900ED5656 /* Debug */,
+				8656F5711F3B3FD900ED5656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8656F5551F3B3FD800ED5656 /* Project object */;
+}
