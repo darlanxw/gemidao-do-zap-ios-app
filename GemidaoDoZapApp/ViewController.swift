@@ -19,53 +19,33 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
-        lbSending.isHidden = true
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-    
-    
     @IBAction func callNow (){
+        self.lbSending.text = "Enviando..."
         if let from = txFrom.text {
             if let to = txTo.text {
                 if let token = txToken.text {
-                    let headers: HTTPHeaders = [
-                        "Content-Type": "application/json",
-                        "Accept": "application/json",
-                        "Access-Token": token
-                    ]
-                
-                    
-                    let urlAudio = url_audio(url: "https://github.com/haskellcamargo/gemidao-do-zap/raw/master/resources/gemidao.mp3")
-                    let dados = Dados(acao: "audio", acao_dados: urlAudio)
-                    let params = Gemidao(numeroDestino: to, dados: [dados], bina: from)
-                    
-                    let jsonString = params.toJSON()
-                    print(jsonString)
-                    let url = URL(string: "https://api.totalvoice.com.br/composto");
-                    lbSending.isHidden = false
-                
-                    Alamofire.request(url!, method: .post, parameters: jsonString, encoding: JSONEncoding.default, headers: headers).responseJSON { response in
-                        switch response.result {
+                    API.sendGemidao(token: token, to: to, from: from, completionHandler: {result in
+                        switch result {
                         case .success:
                             self.lbSending.text = "ENVIADO COM SUCESSO!"
-                            print(response.result.value ?? "Não deu")
                         case .failure(let error):
                             self.lbSending.text = "DEU MERDA, NÃO FOI!"
                             print(error)
                         }
-                    }
+                    })
                 }
-                
             }
         }
     }
     
     @IBAction func create(){
-        openUrl(urlString: "https://api2.totalvoice.com.br/painel/signup.php")
+        openUrl(urlString: API.signUpUrl)
     }
     
     func openUrl(urlString:String!) {

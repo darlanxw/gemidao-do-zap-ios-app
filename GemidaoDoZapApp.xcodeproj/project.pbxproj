@@ -14,6 +14,7 @@
 		8656F5661F3B3FD900ED5656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8656F5641F3B3FD900ED5656 /* Main.storyboard */; };
 		8656F5681F3B3FD900ED5656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8656F5671F3B3FD900ED5656 /* Assets.xcassets */; };
 		8656F56B1F3B3FD900ED5656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8656F5691F3B3FD900ED5656 /* LaunchScreen.storyboard */; };
+		868A18CE1F3CCCBB00509078 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868A18CD1F3CCCBB00509078 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8656F5671F3B3FD900ED5656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8656F56A1F3B3FD900ED5656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8656F56C1F3B3FD900ED5656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868A18CD1F3CCCBB00509078 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		8B67DA9D3B4B2B8C668818FF /* Pods_GemidaoDoZapApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GemidaoDoZapApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 				8656F5691F3B3FD900ED5656 /* LaunchScreen.storyboard */,
 				8656F56C1F3B3FD900ED5656 /* Info.plist */,
 				860411741F3B59D000DA0068 /* Gemidao.swift */,
+				868A18CD1F3CCCBB00509078 /* API.swift */,
 			);
 			path = GemidaoDoZapApp;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				8656F5631F3B3FD900ED5656 /* ViewController.swift in Sources */,
 				860411751F3B59D000DA0068 /* Gemidao.swift in Sources */,
+				868A18CE1F3CCCBB00509078 /* API.swift in Sources */,
 				8656F5611F3B3FD900ED5656 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.darlandev.GemidaoDoZapApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -363,6 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.darlandev.GemidaoDoZapApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
